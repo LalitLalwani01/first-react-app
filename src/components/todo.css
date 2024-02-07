@@ -1,0 +1,115 @@
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0px;
+    padding:  0;
+    box-sizing: border-box;
+    color: #fff;
+}
+body{
+    background:#a48ce0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .box{
+    box-sizing:content-box;
+    border: solid red 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    min-height: 400px;
+    flex-direction: column;
+    margin-left: 600px;
+    box-shadow: color(srgb #b45822 #6b7668 #3d3d3d);
+    background-color:color-mix(in srgb, color #88bb88, color #bb77aa); */
+ /* }      */
+
+ #box {
+    background: #1A1A40;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 5px;
+    /* background-image: */
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background : linear-gradient(360deg,#8758ff,#1A1A40);
+    /* background-image: linear-gradient(360deg,rgba(7, 117, 164, 0.758), rgba(95, 47, 224, 0.087)), url(/public/images/todo.jpg); */
+  }
+.heading{
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: 800;
+    color:#fff;
+    margin-left: 80px;
+
+}
+.input{
+    outline: none;
+    background:none;
+    border: 1px solid #8758ff;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 300px;
+    color: #fff;
+    border-radius: 10px;
+}
+.input ::placeholder{
+    color: #ffffff4d;
+}
+.todo-btn{
+    background:#8758ff;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.todo-btn :visited{
+    background-color: brown;
+}
+.todo-select{
+    outline: none;
+    background: none;
+    border: 1px solid #8758ff;
+    color: #fff;
+    padding: 0.5rem;
+    margin-top: 0.8rem;
+    font-size: medium;
+    margin-left: 3rem;
+    background:#8758ff;
+    border-radius: 10px;
+}
+.clr-btn{
+    margin: 30px;
+    outline: none;
+    background: none;
+    color: #fff;
+    padding: 0.5rem;
+    margin-top: 0.8rem;
+    cursor: pointer;
+    background: #8758ff;
+    font-weight: 600;
+    width: 60px;
+    border-radius: 10px;
+
+}
+.input-check{
+    margin: 10px;
+    margin-left: 2rem;
+    transform: scale(2);
+}
+.li-type{
+    list-style-type:upper-alpha;
+    margin: 15px;
+    margin-left: 10%;
+    background:#8758ff;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.active-todo{
+    margin-left:80px;
+}
